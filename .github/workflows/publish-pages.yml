@@ -43,9 +43,12 @@ jobs:
       - name: Build app
         run: npm run build
 
+      - name: Upload GitHub Pages artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: github-pages
+          path: ./dist
 
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v2
-        with: 
-          artifact_name: github-pages
