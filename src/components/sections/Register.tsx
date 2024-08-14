@@ -31,7 +31,7 @@ export default function Register() {
   const submitFields = async (e: React.MouseEvent<HTMLButtonElement>) => {
 
 
-
+    e.preventDefault()
 
     const url = `https://api.syctech.io/email/contact-message`
     const result = await fetch(url, {
@@ -112,7 +112,7 @@ export default function Register() {
  
         {hasSubmitted ? 
           <div>
-            <h1> You have submitted your information</h1>
+            <h1> You have submitted your message, thank you!</h1>
           </div>
         :(
           <form action="none">
