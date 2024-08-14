@@ -1,14 +1,16 @@
-
-import { useParams } from 'react-router-dom'
+// 
+// import { useParams } from 'react-router-dom'
 // import Contact from "@/components/sections/Contact"
 
-import { posts } from '@/components/posts'
+// import { posts } from '@/components/posts'
 
 export default function Blog() {
 
-  const { blogId } = useParams()
+  // const { blogId } = useParams()
 
-  const post = posts[blogId || "error-post" ]
+  // const post = posts[blogId || "error-post" ]
+
+  const post = ""
 
   return (
     <>
