@@ -138,7 +138,7 @@ export default function Home() {
             <p style={{
               paddingBottom: '1rem',
             }}>
-              David Noll is a software engineer available for hire for contract software development services.  
+              Hi, I'm David Noll, a software engineer available for hire for contract software development services.  
               With nearly 15 years experience in software development, I offer the following:  
             </p>
             <p style={{
