@@ -143,7 +143,7 @@ export default function UseCases() {
               padding: '1rem 0',
             }}>
               My first experiences as a developer started with Javascript over years ago.  I have since worked with frameworks like JQuery, React, Vue, 
-              and tried out many more, including Angular &lpar;...1&rpar; , Solid.js, Elm, Purescript, etc.  I have experience with CSS, SASS, and Tailwind CSS.
+              and tried out many more, including Angular (...1) , Solid.js, Elm, Purescript, etc.  I have experience with CSS, SASS, and Tailwind CSS.
               I have experience with responsive design, animations.  I have also worked with WebRTC, Websockets, and other real-time communication technologies.
             </div>
           </AccordionContent>
